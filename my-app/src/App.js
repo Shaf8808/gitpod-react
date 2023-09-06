@@ -6,14 +6,7 @@ import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProp
 function App() {
   return (
     <div className="App">
-      <FunctionalGreeting />
-      <FunctionalGreeting />
-      <FunctionalGreeting />
-      <FunctionalGreeting />
-      <FunctionalGreeting />
-      <FunctionalGreeting />
-      <FunctionalGreeting />
-      <FunctionalGreetingWithProps />
+      <FunctionalGreetingWithProps greeting="Nice to meet you" name="Simen" age="32" />
     </div>
   );
 }
